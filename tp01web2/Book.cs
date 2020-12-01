@@ -47,7 +47,7 @@ namespace tp01web
                 }
             }
   
-            string stringFormatada = "Book[" + Name + ",authors={Authors"+ lol2 + "},price="+ Price + ",qty=" + Qty + "]";
+            string stringFormatada = "Book[" + Name + ",authors={Authors"+ authorList + "},price="+ Price + ",qty=" + Qty + "]";
 
             return stringFormatada;
         }
